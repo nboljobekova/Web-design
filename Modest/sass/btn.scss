@@ -1,0 +1,72 @@
+// @mixin btn_color ($color_name, $color, $font_color) {
+//     &.#{$color_name} {
+//         background-color: $color;
+//         border-color: darken($color, 5%);
+//         color: $font_color;
+//         &:hover {
+//             background-color: darken($color, 5%);
+//             border-color: darken($color, 10%);
+//             border-style: solid;
+//         }
+//     }
+// }
+
+// .class_buttons {
+//     width: 100%;
+// }
+
+// .btn {
+//     border-radius: $base_border_radius;
+//     border-style: solid;
+//     border-width: 1px;
+//     cursor: pointer;
+//     display: inline-block;
+//     font-size: 1rem;
+//     padding: .5em;
+//     transition-duration: 0.2s; 
+//     transition-property: background-color, border-color;  
+//     transition-timing-function: linear;     
+//     text-align: center;    
+//     position: relative;
+//     &.sm {
+//         font-size: 0.75rem;
+//     }
+//     &.md {
+//         font-size: 1rem;
+//     }
+//     &.lg {
+//         font-size: 1.25rem;
+//     }
+//     &.btn-block {
+//         display: block;
+//     }
+//     &.shake {
+//         position: relative;
+//         display: inline-block;
+//         animation-name: shake;
+//         animation-duration: 1s;
+//         animation-timing-function: linear;
+//         animation-iteration-count: infinite;
+//         &:hover {
+//             animation-play-state: paused;
+//         }
+//     }
+//     &.disabled {
+//         pointer-events: none;
+//     }
+
+//     @each $name, $color in $themes {
+//         @include btn_color($name, $color, $white);
+//     }
+// }
+
+// .btn-group {
+//     border-radius: $base_border_radius;
+//     display: inline-flex;
+//     overflow: hidden;
+//     align-items: stretch;
+//     .btn {
+//         border-radius: 0;
+//         border-width: 0;
+//     }
+// }
